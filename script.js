@@ -7,9 +7,9 @@ const area = PI * radius * radius;
 // 2. Each plant requires a minimum space of 0.8 square meters.
 const minSpace = 0.8;
 // 3. The area is starting with 20 plants.
-let startPlants = 100;
+let startPlants = 20;
 // 4. The plants double in number every week.
-let weeksPast = 10;
+let weeksPast = 0;
 
 // 1. Predict the plant growth after a specific number of weeks.
 let currentPlants = startPlants * (2 ** weeksPast);
